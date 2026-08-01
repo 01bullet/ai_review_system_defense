@@ -1,0 +1,26 @@
+# ── Core ML (required for local model) ──
+torch>=2.5.0
+transformers>=4.46.0
+peft>=0.12.0
+accelerate>=0.33.0
+bitsandbytes>=0.44.0
+safetensors
+huggingface_hub
+
+# ── Web UI ──
+fastapi
+uvicorn
+
+# ── LLM APIs (optional, for API-based review) ──
+openai
+anthropic
+google-generativeai
+
+# ── PDF / document parsing ──
+pypdf
+pymupdf4llm
+
+# ── Utilities ──
+tiktoken
+matplotlib
+tqdm

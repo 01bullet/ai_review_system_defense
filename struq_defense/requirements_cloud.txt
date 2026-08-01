@@ -1,0 +1,18 @@
+# StruQ Defense — Cloud Training Dependencies
+# PyTorch 2.8.0 + CUDA 12.8 + Python 3.12
+
+# Core ML
+transformers>=4.46.0
+peft>=0.12.0
+accelerate>=0.33.0
+bitsandbytes>=0.44.0
+
+# Dataset & tokens
+datasets>=2.20.0
+
+# Training utilities
+trl>=0.9.0
+tensorboard>=2.17.0
+
+# Existing project deps (already installed)
+torch>=2.5.0

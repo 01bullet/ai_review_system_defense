@@ -1,0 +1,26 @@
+# Model weights — downloaded via download_models.py / ensure_model.py
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Env / secrets
+.env
+*.key
+
+# Logs
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local runtime artifacts
+*.db
+.requirements_installed
